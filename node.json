@@ -1,0 +1,36 @@
+{
+	"category": "Configuration",
+	"inputs": 0, 
+	"name": "Blink", 
+	"parameters": [
+		{
+			"default": 1000, 
+			"type": "int", 
+			"name": "Period_ms", 
+			"value": 1000, 
+			"options": [
+				""
+			]
+		}, 
+		{
+			"default": "P1_18", 
+			"type": "raw", 
+			"name": "outPin", 
+			"value": "P1_18", 
+			"options": [
+				""
+			]
+		}
+	], 
+	"outputs": 0, 
+	"labels": {
+		"input": [], 
+		"output": []
+	}, 
+	"schematic_pins": {
+		"inputs": [], 
+		"outputs": []
+	}, 
+	"repository": "https://github.com/nblocksStudioNodes/nblocks_blink", 
+	"revision": ""
+}
